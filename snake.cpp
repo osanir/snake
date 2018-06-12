@@ -38,6 +38,7 @@ Snake::Snake(){
 
 Snake::~Snake(){
     snake.clear();
+    nodelay(stdscr, true);
     endwin();
 }
 
